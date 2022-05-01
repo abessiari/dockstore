@@ -53,8 +53,9 @@ public final class LanguageHandlerFactory {
     }
 
     public static LanguageHandlerInterface getInterface(DescriptorLanguage type) {
-
         switch (type) {
+        case BINDER:
+            return new BinderHandler();
         case CWL:
             return new CWLHandler();
         case WDL:
@@ -74,6 +75,8 @@ public final class LanguageHandlerFactory {
 
     public static LanguageHandlerInterface getInterface(FileType type) {
         switch (type) {
+        case BINDER_CONFIG:
+            return new BinderHandler();
         case DOCKSTORE_CWL:
             return new CWLHandler();
         case DOCKSTORE_WDL:
