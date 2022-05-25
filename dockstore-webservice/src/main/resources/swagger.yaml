@@ -1349,6 +1349,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -2055,6 +2056,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -2242,6 +2244,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -4898,6 +4901,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -5606,6 +5610,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -5768,6 +5773,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -6061,6 +6067,7 @@ paths:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -7640,6 +7647,7 @@ definitions:
         type: "string"
         enum:
         - "SMK"
+        - "BINDER"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -7798,6 +7806,8 @@ definitions:
         - "GXFORMAT2_TEST_FILE"
         - "DOCKSTORE_SWL"
         - "SWL_TEST_JSON"
+        - "BINDER_CONFIG"
+        - "NOTEBOOK"
       content:
         type: "string"
         position: 2
@@ -8182,6 +8192,7 @@ definitions:
       type:
         type: "string"
         enum:
+        - "BINDER"
         - "SMK"
         - "CWL"
         - "WDL"
@@ -8308,6 +8319,7 @@ definitions:
         items:
           type: "string"
           enum:
+          - "BINDER"
           - "SMK"
           - "CWL"
           - "WDL"
@@ -8489,6 +8501,8 @@ definitions:
         - "GXFORMAT2_TEST_FILE"
         - "DOCKSTORE_SWL"
         - "SWL_TEST_JSON"
+        - "BINDER_CONFIG"
+        - "NOTEBOOK"
       valid:
         type: "boolean"
         position: 2
@@ -8876,8 +8890,9 @@ definitions:
         type: "string"
         position: 18
         description: "This is a descriptor type for the workflow, by default either\
-          \ SMK, CWL, WDL, NFL, or gxformat2 (Defaults to CWL)."
+          \ BINDER, SMK, CWL, WDL, NFL, or gxformat2 (Defaults to CWL)."
         enum:
+        - "BINDER"
         - "SMK"
         - "CWL"
         - "WDL"

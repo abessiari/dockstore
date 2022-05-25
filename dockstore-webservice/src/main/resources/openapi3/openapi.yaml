@@ -970,6 +970,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -1622,6 +1623,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -1826,6 +1828,8 @@ paths:
             - GXFORMAT2_TEST_FILE
             - DOCKSTORE_SWL
             - SWL_TEST_JSON
+            - BINDER_CONFIG
+            - NOTEBOOK
       responses:
         default:
           content:
@@ -1899,6 +1903,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -2321,6 +2326,8 @@ paths:
                   - GXFORMAT2_TEST_FILE
                   - DOCKSTORE_SWL
                   - SWL_TEST_JSON
+                  - BINDER_CONFIG
+                  - NOTEBOOK
                 uniqueItems: true
           description: default response
       security:
@@ -5635,6 +5642,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -6323,6 +6331,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -6475,6 +6484,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -6510,6 +6520,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -6782,6 +6793,7 @@ paths:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -7213,6 +7225,8 @@ paths:
             - GXFORMAT2_TEST_FILE
             - DOCKSTORE_SWL
             - SWL_TEST_JSON
+            - BINDER_CONFIG
+            - NOTEBOOK
       responses:
         default:
           content:
@@ -7396,6 +7410,7 @@ components:
           - ANVIL
           - CAVATICA
           - NEXTFLOW_TOWER
+          - BINDER
         supportedLanguages:
           type: array
           items:
@@ -8229,6 +8244,7 @@ components:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -8249,6 +8265,7 @@ components:
           description: The language of the workflow
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -8495,6 +8512,7 @@ components:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
@@ -8683,6 +8701,8 @@ components:
           - GXFORMAT2_TEST_FILE
           - DOCKSTORE_SWL
           - SWL_TEST_JSON
+          - BINDER_CONFIG
+          - NOTEBOOK
         verifiedBySource:
           type: object
           additionalProperties:
@@ -9038,6 +9058,7 @@ components:
         type:
           type: string
           enum:
+          - BINDER
           - SMK
           - CWL
           - WDL
@@ -9334,6 +9355,8 @@ components:
           - GXFORMAT2_TEST_FILE
           - DOCKSTORE_SWL
           - SWL_TEST_JSON
+          - BINDER_CONFIG
+          - NOTEBOOK
         valid:
           type: boolean
     VerificationInformation:
@@ -9528,6 +9551,7 @@ components:
           type: string
           enum:
           - SMK
+          - BINDER
           - CWL
           - WDL
           - gxformat2
