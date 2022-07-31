@@ -13,5 +13,6 @@ public enum Partner {
     ANVIL,
     CAVATICA,
     NEXTFLOW_TOWER,
-    BINDER
+    BINDER,
+    JUPHUB
 }

@@ -971,6 +971,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -1624,6 +1625,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -1830,6 +1832,7 @@ paths:
             - SWL_TEST_JSON
             - BINDER_CONFIG
             - NOTEBOOK
+            - JUPHUB_CONFIG
       responses:
         default:
           content:
@@ -1904,6 +1907,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -2328,6 +2332,7 @@ paths:
                   - SWL_TEST_JSON
                   - BINDER_CONFIG
                   - NOTEBOOK
+                  - JUPHUB_CONFIG
                 uniqueItems: true
           description: default response
       security:
@@ -5643,6 +5648,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -6332,6 +6338,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -6485,6 +6492,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -6521,6 +6529,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -6794,6 +6803,7 @@ paths:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -7227,6 +7237,7 @@ paths:
             - SWL_TEST_JSON
             - BINDER_CONFIG
             - NOTEBOOK
+            - JUPHUB_CONFIG
       responses:
         default:
           content:
@@ -7411,6 +7422,7 @@ components:
           - CAVATICA
           - NEXTFLOW_TOWER
           - BINDER
+          - JUPHUB
         supportedLanguages:
           type: array
           items:
@@ -8245,6 +8257,7 @@ components:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -8266,6 +8279,7 @@ components:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -8513,6 +8527,7 @@ components:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2
@@ -8703,6 +8718,7 @@ components:
           - SWL_TEST_JSON
           - BINDER_CONFIG
           - NOTEBOOK
+          - JUPHUB_CONFIG
         verifiedBySource:
           type: object
           additionalProperties:
@@ -9058,6 +9074,7 @@ components:
         type:
           type: string
           enum:
+          - JUPHUB
           - BINDER
           - SMK
           - CWL
@@ -9357,6 +9374,7 @@ components:
           - SWL_TEST_JSON
           - BINDER_CONFIG
           - NOTEBOOK
+          - JUPHUB_CONFIG
         valid:
           type: boolean
     VerificationInformation:
@@ -9552,6 +9570,7 @@ components:
           enum:
           - SMK
           - BINDER
+          - JUPHUB
           - CWL
           - WDL
           - gxformat2

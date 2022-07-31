@@ -621,6 +621,7 @@ definitions:
       WDL, or NFL). Note that these files can also include associated Docker/container files 
       and test parameters that further describe a version of a tool
     enum:
+      - JUPHUB
       - BINDER
       - SMK
       - CWL

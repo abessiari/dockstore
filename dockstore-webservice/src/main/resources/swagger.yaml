@@ -1350,6 +1350,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -2057,6 +2058,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -2245,6 +2247,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -4902,6 +4905,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -5611,6 +5615,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -5774,6 +5779,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -6068,6 +6074,7 @@ paths:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -7648,6 +7655,7 @@ definitions:
         enum:
         - "SMK"
         - "BINDER"
+        - "JUPHUB"
         - "CWL"
         - "WDL"
         - "GXFORMAT2"
@@ -7808,6 +7816,7 @@ definitions:
         - "SWL_TEST_JSON"
         - "BINDER_CONFIG"
         - "NOTEBOOK"
+        - "JUPHUB_CONFIG"
       content:
         type: "string"
         position: 2
@@ -8192,6 +8201,7 @@ definitions:
       type:
         type: "string"
         enum:
+        - "JUPHUB"
         - "BINDER"
         - "SMK"
         - "CWL"
@@ -8319,6 +8329,7 @@ definitions:
         items:
           type: "string"
           enum:
+          - "JUPHUB"
           - "BINDER"
           - "SMK"
           - "CWL"
@@ -8503,6 +8514,7 @@ definitions:
         - "SWL_TEST_JSON"
         - "BINDER_CONFIG"
         - "NOTEBOOK"
+        - "JUPHUB_CONFIG"
       valid:
         type: "boolean"
         position: 2
@@ -8890,8 +8902,9 @@ definitions:
         type: "string"
         position: 18
         description: "This is a descriptor type for the workflow, by default either\
-          \ BINDER, SMK, CWL, WDL, NFL, or gxformat2 (Defaults to CWL)."
+          \ JUPHUB, BINDER, SMK, CWL, WDL, NFL, or gxformat2 (Defaults to CWL)."
         enum:
+        - "JUPHUB"
         - "BINDER"
         - "SMK"
         - "CWL"

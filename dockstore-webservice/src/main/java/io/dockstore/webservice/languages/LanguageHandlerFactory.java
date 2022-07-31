@@ -54,6 +54,7 @@ public final class LanguageHandlerFactory {
 
     public static LanguageHandlerInterface getInterface(DescriptorLanguage type) {
         switch (type) {
+        case JUPHUB:
         case BINDER:
             return new BinderHandler();
         case CWL:
@@ -75,6 +76,7 @@ public final class LanguageHandlerFactory {
 
     public static LanguageHandlerInterface getInterface(FileType type) {
         switch (type) {
+        case JUPHUB_CONFIG:
         case BINDER_CONFIG:
             return new BinderHandler();
         case DOCKSTORE_CWL:
